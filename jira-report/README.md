@@ -1,3 +1,5 @@
+#JIRA Rports Generator
+
 # Jira Weekly Updated Report
 
 Generates a report of issues updated in the last N days for selected issue types.
