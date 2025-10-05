@@ -15,10 +15,11 @@ pip install -r requirements.txt
  For Sprint report: Edit `configs/sprint_status.json` 
 
 ### Set envs 
-export JIRA_EMAIL="you@example.com"
+```bash
+export JIRA_EMAIL="you@example.com" 
 export JIRA_API_TOKEN="YOUR_ATLASSIAN_API_TOKEN"
 export JIRA_BASE_URL="https://issues.redhat.com/"
-
+```
 ## Jira Weekly Updated Report
 
 ### Run with src layout (add src to PYTHONPATH)
