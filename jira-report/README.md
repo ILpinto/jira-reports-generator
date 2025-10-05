@@ -1,32 +1,31 @@
-# Jira Weekly Updated Report
+# JIRA Rports Generator
 
 Generates a report of issues updated in the last N days for selected issue types.
 
-## Install
+### Install
 
 ```bash
 python -m venv .venv && . .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## Configure
+### Configure
 
-For Weekly report: Edit `configs/weekly_updated.json` 
-For Sprint report: Edit `configs/sprint_status.json` 
+ - For Weekly report: Edit `configs/weekly_updated.json` 
+ - For Sprint report: Edit `configs/sprint_status.json` 
 
-
-python -m venv .venv && . .venv/bin/activate
-pip install -r requirements.txt
-
-# Set envs 
-export JIRA_EMAIL="you@example.com"
+### Set envs 
+```bash
+export JIRA_EMAIL="you@example.com" 
 export JIRA_API_TOKEN="YOUR_ATLASSIAN_API_TOKEN"
 export JIRA_BASE_URL="https://issues.redhat.com/"
+```
+## Jira Weekly Updated Report
 
-# Run with src layout (add src to PYTHONPATH)
+### Run with src layout (add src to PYTHONPATH)
 PYTHONPATH=src python  jira-report/src/report_generator/generate_weekly_updated.py 
 
-## Output
+### Output
 
 - `weekly_updated_raw.json` – raw API payload + count + JQL
 - `weekly_updated.html` – simple clickable table
@@ -35,10 +34,10 @@ PYTHONPATH=src python  jira-report/src/report_generator/generate_weekly_updated.
 
 Generate a sprint status report (active sprint by default):
 
-# Ensure env vars are set (see .env.example)
+### Ensure env vars are set (see .env.example)
 PYTHONPATH=src python  jira-report/src/report_generator/generate_sprint_status.py
 
-## Output
+### Output
 
 - `sprint_status_raw.json` – raw API payload + count + JQL
 - `sprint_status.html` – simple clickable table
