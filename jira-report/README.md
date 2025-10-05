@@ -11,8 +11,8 @@ pip install -r requirements.txt
 
 ### Configure
 
- For Weekly report: Edit `configs/weekly_updated.json` 
- For Sprint report: Edit `configs/sprint_status.json` 
+ - For Weekly report: Edit `configs/weekly_updated.json` 
+ - For Sprint report: Edit `configs/sprint_status.json` 
 
 ### Set envs 
 ```bash
