@@ -1,7 +1,5 @@
 # JIRA Rports Generator
 
-# Jira Weekly Updated Report
-
 Generates a report of issues updated in the last N days for selected issue types.
 
 ## Install
@@ -24,6 +22,8 @@ pip install -r requirements.txt
 export JIRA_EMAIL="you@example.com"
 export JIRA_API_TOKEN="YOUR_ATLASSIAN_API_TOKEN"
 export JIRA_BASE_URL="https://issues.redhat.com/"
+
+# Jira Weekly Updated Report
 
 # Run with src layout (add src to PYTHONPATH)
 PYTHONPATH=src python  jira-report/src/report_generator/generate_weekly_updated.py 
