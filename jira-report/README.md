@@ -23,9 +23,9 @@ export JIRA_EMAIL="you@example.com"
 export JIRA_API_TOKEN="YOUR_ATLASSIAN_API_TOKEN"
 export JIRA_BASE_URL="https://issues.redhat.com/"
 
-# Jira Weekly Updated Report
+## Jira Weekly Updated Report
 
-# Run with src layout (add src to PYTHONPATH)
+## Run with src layout (add src to PYTHONPATH)
 PYTHONPATH=src python  jira-report/src/report_generator/generate_weekly_updated.py 
 
 ## Output
