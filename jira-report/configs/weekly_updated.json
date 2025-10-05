@@ -1,0 +1,33 @@
+{
+  "base_url": "https://issues.redhat.com",
+  "project": "BUILD",
+  "board_id": 17176,
+  "days": 7,
+  "issue_types": [
+    "Bug",
+    "Story",
+    "Task",
+    "Vulnerability"
+  ],
+  "api_version": "auto",
+  "fields": [
+    "key",
+    "summary",
+    "issuetype",
+    "status",
+    "assignee",
+    "reporter",
+    "priority",
+    "updated",
+    "created",
+    "resolutiondate",
+    "components",
+    "fixVersions"
+  ],
+  "page_size": 100,
+  "outputs": {
+    "json": "reports/weekly_updated_raw.json",
+    "html": "reports/weekly_updated.html"
+  },
+  "title": "BUILD — Bugs/Stories/Tasks updated in the last 7 days"
+}

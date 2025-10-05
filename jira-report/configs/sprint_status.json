@@ -1,0 +1,26 @@
+{
+  "base_url": "https://issues.redhat.com",
+  "project": "BUILD",
+  "use_current_sprint": true,
+  "board_id": 17176,
+  "api_version": "auto",
+  "page_size": 100,
+  "story_points_field": "Custom field (Story Points)",
+  "fields": [
+    "key",
+    "summary",
+    "issuetype",
+    "status",
+    "assignee",
+    "priority",
+    "updated",
+    "created",
+    "resolutiondate",
+    "components",
+    "Custom field (Story Points)"
+  ],
+  "outputs": {
+    "json": "reports/sprint_status_raw.json",
+    "html": "reports/sprint_status.html"
+  }
+}
