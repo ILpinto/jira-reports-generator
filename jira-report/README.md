@@ -11,12 +11,8 @@ pip install -r requirements.txt
 
 ### Configure
 
-For Weekly report: Edit `configs/weekly_updated.json` 
-For Sprint report: Edit `configs/sprint_status.json` 
-
-
-python -m venv .venv && . .venv/bin/activate
-pip install -r requirements.txt
+ For Weekly report: Edit `configs/weekly_updated.json` 
+ For Sprint report: Edit `configs/sprint_status.json` 
 
 ### Set envs 
 export JIRA_EMAIL="you@example.com"
