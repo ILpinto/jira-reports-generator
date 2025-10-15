@@ -1,4 +1,4 @@
-# JIRA Rports Generator
+# JIRA Reports Generator
 
 Generates a report of issues updated in the last N days for selected issue types.
 
