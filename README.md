@@ -22,6 +22,7 @@ export JIRA_BASE_URL="https://issues.redhat.com/"
 ```
 ## Jira Weekly Updated Report
 Generate a weekly report for the tasks updated in the past 7 days:
+
 PYTHONPATH=src python  jira-report/src/report_generator/generate_weekly_updated.py 
 
 ### Output
@@ -31,6 +32,7 @@ PYTHONPATH=src python  jira-report/src/report_generator/generate_weekly_updated.
 
 ## Sprint Status Report
 Generate a sprint status report (active sprint by default):
+
 PYTHONPATH=src python  jira-report/src/report_generator/generate_sprint_status.py
 
 ### Output
