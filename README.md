@@ -6,7 +6,7 @@ Generates a report of issues updated in the last N days for selected issue types
 
 ```bash
 python -m venv .venv && . .venv/bin/activate
-pip install -r requirements.txt
+pip install -r jira-report/requirements.txt
 ```
 
 ### Configure
