@@ -21,8 +21,7 @@ export JIRA_API_TOKEN="YOUR_ATLASSIAN_API_TOKEN"
 export JIRA_BASE_URL="https://issues.redhat.com/"
 ```
 ## Jira Weekly Updated Report
-
-### Run with src layout (add src to PYTHONPATH)
+Generate a weekly report for the tasks updated in the past 7 days:
 PYTHONPATH=src python  jira-report/src/report_generator/generate_weekly_updated.py 
 
 ### Output
@@ -31,10 +30,7 @@ PYTHONPATH=src python  jira-report/src/report_generator/generate_weekly_updated.
 - `weekly_updated.html` – simple clickable table
 
 ## Sprint Status Report
-
 Generate a sprint status report (active sprint by default):
-
-### Ensure env vars are set (see .env.example)
 PYTHONPATH=src python  jira-report/src/report_generator/generate_sprint_status.py
 
 ### Output
