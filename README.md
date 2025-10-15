@@ -1,6 +1,6 @@
 # JIRA Reports Generator
 
-Generates a report of issues updated in the last N days for selected issue types.
+Generates Jira reports for your project
 
 ### Install
 
